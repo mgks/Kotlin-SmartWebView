@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Smart WebView</string>
+    <string name="image_view">Image View</string>
+	<string name="mgks_promo">infeeds.com/u/mgks\ngithub.com/mgks</string>
+    <string name="rate_dialog_title">Rate</string>
+    <string name="rate_dialog_message">If you like our app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks!</string>
+    <string name="rate_dialog_ok">RATE</string>
+    <string name="rate_dialog_cancel">LATER</string>
+    <string name="rate_dialog_no">DON\'T ASK AGAIN</string>
+	<string name="loc_fail">Failed to Find Location</string>
+    <string name="loc_fail_text">Please Check Your GPS Location.</string>
+    <string name="loc_fail_more">Please check if your GPS is enabled, if not, please set it on high accuracy from location settings.</string>
+    <string name="loc_perm">Allow Permission for Location</string>
+    <string name="loc_perm_text">Give this app permission to check your location.</string>
+    <string name="loc_perm_more">Please allow this app to know your location for better overall experience.</string>
+	<string name="dl_downloading">Downloading file…</string>
+	<string name="dl_downloading2">Downloading File</string>
+	<string name="fl_chooser">File Chooser</string>
+	<string name="went_wrong">Something Went Wrong!</string>
+	<string name="check_connection">Please check your Network Connection!</string>
+	<string name="share_w_friends">Share with your Friends</string>
+</resources>
