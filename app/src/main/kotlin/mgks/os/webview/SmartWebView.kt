@@ -50,7 +50,7 @@ internal object SmartWebView {
     var ASWP_OFFLINE = false
 
     // open external url with default browser instead of app webview
-    var ASWP_EXTURL = true
+    var ASWP_EXTURL = false
 
 
     /* -- SECURITY VARIABLES -- */

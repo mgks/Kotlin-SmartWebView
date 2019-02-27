@@ -402,7 +402,7 @@ class MainActivity : AppCompatActivity() {
         //For android below API 23
         override fun onReceivedError(view: WebView, errorCode: Int, description: String, failingUrl: String) {
             Toast.makeText(applicationContext, getString(R.string.went_wrong), Toast.LENGTH_SHORT).show()
-            aswm_view("file:///android_res/raw/error.html", false)
+            aswm_view("file:///android_asset/error.html", false)
         }
 
         //Overriding webview URLs

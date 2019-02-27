@@ -7,11 +7,14 @@ import android.net.NetworkInfo
 internal object DetectConnection {
     private val TAG = DetectConnection::class.java.getSimpleName()
     fun isInternetAvailable(context: Context): Boolean {
-        val info = (context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager).activeNetworkInfo as NetworkInfo
-        return if (info.isConnected) {
-			true
-		} else {
-			true
+		val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+		val info = cm.activeNetworkInfo
+        return if (info == null) run { return false } else {
+			if (info.isConnected) {
+				true
+			} else {
+				true
+			}
 		}
     }
 }
