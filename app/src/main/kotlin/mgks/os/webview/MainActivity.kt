@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 /*
  * Android Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Android-SmartWebView).
@@ -37,14 +37,12 @@ import android.support.v4.content.ContextCompat
 import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.annotation.RequiresApi
 import android.support.v4.app.NotificationCompat
 import android.util.Log
 import android.view.KeyEvent
 import android.view.View
 import android.view.WindowManager
 import android.webkit.CookieManager
-import android.webkit.DownloadListener
 import android.webkit.GeolocationPermissions
 import android.webkit.URLUtil
 import android.webkit.ValueCallback

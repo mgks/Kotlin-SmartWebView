@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 /*
  * Android Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Kotlin-SWV).

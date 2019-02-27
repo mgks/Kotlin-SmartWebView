@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -8,13 +8,13 @@ import android.view.View
 
 import java.util.Date
 
-import mgks.kotlin.webview.DialogManager.create
-import mgks.kotlin.webview.PreferenceHelper.getInstallDate
-import mgks.kotlin.webview.PreferenceHelper.getIsAgreeShowDialog
-import mgks.kotlin.webview.PreferenceHelper.getLaunchTimes
-import mgks.kotlin.webview.PreferenceHelper.getRemindInterval
-import mgks.kotlin.webview.PreferenceHelper.isFirstLaunch
-import mgks.kotlin.webview.PreferenceHelper.setInstallDate
+import mgks.os.webview.DialogManager.create
+import mgks.os.webview.PreferenceHelper.getInstallDate
+import mgks.os.webview.PreferenceHelper.getIsAgreeShowDialog
+import mgks.os.webview.PreferenceHelper.getLaunchTimes
+import mgks.os.webview.PreferenceHelper.getRemindInterval
+import mgks.os.webview.PreferenceHelper.isFirstLaunch
+import mgks.os.webview.PreferenceHelper.setInstallDate
 
 class AppRate private constructor(context: Context) {
 

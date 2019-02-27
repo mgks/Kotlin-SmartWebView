@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 import android.Manifest
 import android.annotation.SuppressLint

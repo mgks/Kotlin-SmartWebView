@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 import android.content.Context
 import android.net.ConnectivityManager

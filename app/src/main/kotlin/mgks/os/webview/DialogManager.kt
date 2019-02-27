@@ -1,4 +1,4 @@
-package mgks.kotlin.webview
+package mgks.os.webview
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -12,14 +12,14 @@ import android.view.View
 import java.lang.ref.Reference
 import java.lang.ref.WeakReference
 
-import mgks.kotlin.webview.IntentHelper.createIntentForAmazonAppstore
-import mgks.kotlin.webview.IntentHelper.createIntentForGooglePlay
-import mgks.kotlin.webview.PreferenceHelper.setAgreeShowDialog
-import mgks.kotlin.webview.PreferenceHelper.setRemindInterval
-import mgks.kotlin.webview.UriHelper.getAmazonAppstore
-import mgks.kotlin.webview.UriHelper.getGooglePlay
-import mgks.kotlin.webview.UriHelper.isPackageExists
-import mgks.kotlin.webview.Utils.getDialogBuilder
+import mgks.os.webview.IntentHelper.createIntentForAmazonAppstore
+import mgks.os.webview.IntentHelper.createIntentForGooglePlay
+import mgks.os.webview.PreferenceHelper.setAgreeShowDialog
+import mgks.os.webview.PreferenceHelper.setRemindInterval
+import mgks.os.webview.UriHelper.getAmazonAppstore
+import mgks.os.webview.UriHelper.getGooglePlay
+import mgks.os.webview.UriHelper.isPackageExists
+import mgks.os.webview.Utils.getDialogBuilder
 
 internal object DialogManager {
 
