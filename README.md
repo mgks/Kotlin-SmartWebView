@@ -72,9 +72,6 @@ COOKIE "lat" for latitude
 COOKIE "long" for longitude
 ```
 
-## License
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
-
 ## Want to support this project?
 #### There are few ways you can support this project -
 
@@ -108,6 +105,9 @@ PRO FEATURES:
 NOTE: All public contributions will always be a part of this open source here.
 SWV Pro just contains some additional features that have been implemented only by me to make the app more commercial oriented which helps me keep this repo updated.
 ```
+
+## License
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
 
 ## Acknowledgment
 Rating method (Android-Rate) used in this app is developed by [hotchemi](https://github.com/hotchemi) and thanks to other programmers who contributed to this project.
