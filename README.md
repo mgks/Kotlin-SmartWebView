@@ -1,5 +1,5 @@
-# Android Smart WebView 
-[![alt text](https://img.shields.io/badge/build%20with-kotlin-orange.svg)](#) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Android-SWV/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![alt text](https://img.shields.io/badge/learn%20about-SWV%20Pro-yellow.svg "Get Smart WebView Pro")](https://github.com/voinsource/SmartWebView-Pro)
+# Kotlin Smart WebView 
+[![alt text](https://img.shields.io/badge/build%20with-kotlin-orange.svg)](#) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![alt text](https://img.shields.io/badge/learn%20about-SWV%20Pro-yellow.svg "Get Smart WebView Pro")](https://github.com/voinsource/SmartWebView-Pro)
 
 This project is developed to help anyone create hybrid android applications with just webview. This app gives web based applications power to use native android features without hassle, whether online or offline w/ just HTML+JavaScript.
 
@@ -83,7 +83,7 @@ COOKIE "long" for longitude
 
 <a href="https://ko-fi.com/Z8Z4BPQ6" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
 
-**- Feeback:** Donations are definitely not everything. Without an honest feedback no good project is possible. Your valuable feedbacks are always welcome, just drop an [email](mailto:getmgks@gmail.com).<br />Report your [issues](https://github.com/mgks/Android-SWV/issues) here.
+**- Feeback:** Donations are definitely not everything. Without an honest feedback no good project is possible. Your valuable feedbacks are always welcome, just drop an [email](mailto:getmgks@gmail.com).<br />Report your [issues](https://github.com/mgks/Kotlin-SmartWebView/issues) here.
 
 #### More about Smart WebView Pro
 **[SWV Pro](https://voinsource.github.io/SmartWebView-Pro/) is a commercial app built for small and medium level businesses, easy to implement with any existing environment.**
