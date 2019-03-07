@@ -1,5 +1,7 @@
 # Kotlin Smart WebView 
-[![alt text](https://img.shields.io/badge/build%20with-kotlin-orange.svg)](#) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![alt text](https://img.shields.io/badge/learn%20about-SWV%20Pro-yellow.svg "Get Smart WebView Pro")](https://github.com/voinsource/SmartWebView-Pro)
+[![alt text](https://img.shields.io/badge/project%20variant-kotlin-orange.svg)](#) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![alt text](https://img.shields.io/badge/learn%20about-Smart%20WebView%20Pro-yellow.svg "Get Smart WebView Pro")](https://github.com/voinsource/SmartWebView-Pro)
+
+**For JAVA variant, see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView)**
 
 This project is developed to help anyone create hybrid android applications with just webview. This app gives web based applications power to use native android features without hassle, whether online or offline w/ just HTML+JavaScript.
 
