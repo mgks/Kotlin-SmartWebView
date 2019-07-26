@@ -32,12 +32,7 @@ import android.os.Environment
 import android.os.Handler
 import android.provider.MediaStore
 import android.provider.Settings
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
-import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.app.NotificationCompat
 import android.util.Log
 import android.view.KeyEvent
 import android.view.View
@@ -55,6 +50,25 @@ import android.webkit.SslErrorHandler
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
+
+import androidx.annotation.NonNull
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.widget.SearchView
+import androidx.appcompat.widget.Toolbar
+import androidx.browser.customtabs.CustomTabsIntent
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.NotificationCompat
+
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
+import com.google.android.material.navigation.NavigationView
+import com.google.firebase.iid.FirebaseInstanceId
 
 import java.io.File
 import java.io.IOException

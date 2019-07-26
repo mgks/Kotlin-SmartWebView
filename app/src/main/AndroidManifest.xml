@@ -63,7 +63,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https"
                     android:host="github.com"
-                    android:pathPrefix="/voinsource" />
+                    android:pathPrefix="/mgks" />
 				<!-- if you want only a specific directory from your website to be opened in the app through external links -->
             </intent-filter>
         </activity>
