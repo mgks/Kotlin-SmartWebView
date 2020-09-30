@@ -3,21 +3,21 @@
 
 **For JAVA variant, see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView)**
 
-This project is developed to help anyone create hybrid android applications with just webview. This app gives web based applications power to use native android features without hassle, whether online or offline w/ just HTML+JavaScript.
+This project is developed to help anyone create hybrid android applications with just webview. This app gives web-based applications the power to use native android features without hassle, whether online or offline w/ just HTML+JavaScript.
 
-Android Smart WebView gathers only required information from user's device based on request, that includes Live GPS location, File upload, Camera image processing, Rating system and more, with clean minimal interface.
+Android Smart WebView gathers only required information from the user's device based on the request, which includes Live GPS location, File upload, Camera image processing, Rating system, and more, with a clean minimal interface.
 
 ## Getting Started
-These instructions will help you get your Smart WebView copy up and running on your local machine for development and testing purposes.
+These instructions will help you get your Smart WebView to copy up and running on your local machine for development and testing purposes.
 
 ### Requirement
-The project requires minimum Android API 19+ (4.4 KitKat) SDK to test. I use Android Studio (latest release by time last update) for this.
+The project requires minimum Android API 19+ (4.4 KitKat) SDK to test. I use Android Studio (latest release by the time last update) for this.
 
 ### Test Run
-Try cleaning and rebuilding the project in your programming environment, once you are done fixing any error (incase of one), you'll be ready to look into the project.
+Try cleaning and rebuilding the project in your programming environment, once you are done fixing any error (in case of one), you'll be ready to look into the project.
 
 ### Permissions
-You can remove any of the following requests if you do not need them or you can disable any feature using easy setup variables. Currently, these permissions are must for default variables to work properly.
+You can remove any of the following requests if you do not need them or you can disable any feature using easy setup variables. Currently, these a permissions are must for default variables to work properly.
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -85,7 +85,7 @@ COOKIE "long" for longitude
 
 <a href="https://ko-fi.com/Z8Z4BPQ6" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
 
-**- Feeback:** Donations are definitely not everything. Without an honest feedback no good project is possible. Your valuable feedbacks are always welcome, just drop an [email](mailto:getmgks@gmail.com).<br />Report your [issues](https://github.com/mgks/Kotlin-SmartWebView/issues) here.
+**- Feeback:** Donations are definitely not everything. Without honest feedback no good project is possible. Your valuable feedbacks are always welcome, just drop an [email](mailto:getmgks@gmail.com).<br />Report your [issues](https://github.com/mgks/Kotlin-SmartWebView/issues) here.
 
 #### More about Smart WebView Pro
 **[SWV Pro](https://voinsource.github.io/SmartWebView-Pro/) is a commercial app built for small and medium level businesses, easy to implement with any existing environment.**
@@ -112,11 +112,11 @@ SWV Pro just contains some additional features that have been implemented only b
 This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
 
 ## Acknowledgment
-Rating method (Android-Rate) used in this app is developed by [hotchemi](https://github.com/hotchemi) and thanks to other programmers who contributed to this project.
+The rating method (Android-Rate) used in this app is developed by hotchemi and thanks to other programmers who contributed to this project.
 
-Post in Github Repo issues section if you got any problem handling the project and if you want to contribute, you're most welcome to help me make a smarter project than what it is.
+Post in the Github Repo issues sections if you got any problem handling the project and if you want to contribute, you're most welcome to help me make a smarter project than what it is.
 
-**A personal note:** `You all must keep up with programming. It's sometimes difficult and sometimes easy but fun afterall, you can create your own world with programming and that's the beauty of it. So, all the best for your next creation.`
+A personal note: You all must keep up with programming. It's sometimes difficult and sometimes easy but fun, after all, you can create your own world with programming and that's the beauty of it. So, all the best for your next creation.
 
 This project is initially developed by **[Ghazi Khan](https://github.com/mgks)**.
 
