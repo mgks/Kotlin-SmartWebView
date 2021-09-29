@@ -1,123 +1,57 @@
-# Kotlin Smart WebView 
-[![alt text](https://img.shields.io/badge/project%20variant-kotlin-orange.svg)](#) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![alt text](https://img.shields.io/badge/learn%20about-Smart%20WebView%20Pro-yellow.svg "Get Smart WebView Pro")](https://github.com/voinsource/SmartWebView-Pro)
+<!--
+ * Kotlin Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Kotlin-SmartWebView).
+ * Initially developed by Ghazi Khan (https://github.com/mgks) under MIT Open Source License.
+ * This program is free to use for private and commercial purposes.
+ * Please mention project source or developer credit in your Application's License(s) Wiki.
+ * Giving right credit to developers encourages them to create better projects :)
+-->
 
-**For JAVA variant, see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView)**
+<span align="center" style="text-align:center">
 
-This project is developed to help anyone create hybrid android applications with just webview. This app gives web based applications power to use native android features without hassle, whether online or offline w/ just HTML+JavaScript.
+[![alt text](https://img.shields.io/badge/variant-kotlin-violet.svg)](#config-variables) [![alt text](https://img.shields.io/badge/version-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mgks/Kotlin-SmartWebView/blob/master/LICENSE)
 
-Android Smart WebView gathers only required information from user's device based on request, that includes Live GPS location, File upload, Camera image processing, Rating system and more, with clean minimal interface.
+<h1>Kotlin Smart WebView</h1>
 
-## Getting Started
-These instructions will help you get your Smart WebView copy up and running on your local machine for development and testing purposes.
+</span><span align="center" style="text-align:center">
 
-### Requirement
-The project requires minimum Android API 19+ (4.4 KitKat) SDK to test. I use Android Studio (latest release by time last update) for this.
+**[*GETTING STARTED](https://github.com/mgks/Android-SmartWebView/blob/master/README.md#getting-started) &middot; [GET SWV PRO (DONATE)](https://voinsource.github.io/SmartWebView-Pro/) &middot; [*WIKI](https://github.com/mgks/Android-SmartWebView/wiki) &middot; [*DOCUMENTATION](https://github.com/mgks/Android-SmartWebView/tree/master/documentation) &middot; [ISSUES](https://github.com/mgks/Kotlin-SmartWebView/issues)**
 
-### Test Run
-Try cleaning and rebuilding the project in your programming environment, once you are done fixing any error (incase of one), you'll be ready to look into the project.
+</span>
 
-### Permissions
-You can remove any of the following requests if you do not need them or you can disable any feature using easy setup variables. Currently, these permissions are must for default variables to work properly.
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.CAMERA"/>
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.VIBRATE" />
-```
-`INTERNET` permission is required if you are requesting a weburl or webpage.
-`WRITE_EXTERNAL_STORAGE` is required for camera photo creation, if you have enabled `ASWP_FUPLOAD` and `ASWP_CAMUPLOAD` to upload image files.
+*<sup>(\*) Starred links will redirect you to the main project (Android Smart WebView) for documentation, wiki, etc.</sup>*
 
-### Easy Setup
-Once your project is ready, here are some important config variables that you can adjust as per your app requirements.
+Kotlin SWV is a framework built to develop advanced hybrid webview applications with ease.
 
-#### Permission variables
-```kotlin
-static boolean ASWP_JSCRIPT     = true     //enable JavaScript for webview
-static boolean ASWP_FUPLOAD     = true     //upload file from webview
-static boolean ASWP_CAMUPLOAD   = true     //enable upload from camera for photos
-static boolean ASWP_ONLYCAM     = false    //incase you want only camera files to upload
-static boolean ASWP_MULFILE     = true     //upload multiple files in webview
-static boolean ASWP_LOCATION    = true     //track GPS locations
-static boolean ASWP_RATINGS     = true     //show ratings dialog; auto configured, edit method get_rating() for customizations
-static boolean ASWP_PULLFRESH   = true     //pull refresh current url
-static boolean ASWP_PBAR        = true     //show progress bar in app
-static boolean ASWP_ZOOM        = false    //zoom control for webpages view
-static boolean ASWP_SFORM       = false    //save form cache and auto-fill information
-static boolean ASWP_OFFLINE     = false    //whether the loading webpages are offline or online
-static boolean ASWP_EXTURL      = true     //open external url with default browser instead of app webview
-```
-#### Security variables
-```kotlin
-static boolean ASWP_CERT_VERIFICATION   = true    //verify whether HTTPS port needs certificate verification
-```
-#### Configuration variables
-Complete URL of your website, landing page or local file as `file:///android_res/dir/file.html`
-```kotlin
-ASWV_URL      = "https://github.com/mgks"    //domain, or directory or locating to any root file
-```
+A small build with features working out of the box: Live GPS Location, Notifications with FCM, AdMob, Chrome Tabs, Process Camera Input, Upload/Download Files, Custom Rating System, Multiple User Interfaces and more.
 
-If file upload enabled, you can define its extention type, default is `*/*` for all file types;
+**[Get Pro (Donate) version](https://voinsource.github.io/SmartWebView-Pro/)**
 
-Use `image/*` for image types; check file type references on web for custom file type
-```kotlin
-ASWV_F_TYPE   = "*/*"
-```
+**For Java variant (more active variant), see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView).<br>Java variant is regularly updated with current progress and bug reports.**
 
-## Getting GPS Location
-If `ASWP_LOCATION = true` then the app will start requesting GPS locations of the device on regular basis and all of the recorded data will be sent to the webpage in form of cookies, with updated live GPS locations.
-```kotlin
-COOKIE "lat" for latitude
-COOKIE "long" for longitude
-```
+## Support the Project
 
-## Want to support this project?
-#### There are few ways you can support this project -
+#### There are few ways to support this project -
 
-**- Buying SWV Pro:** Dozens of amazing additional features including firebase notifications, admob, chromium tabs for external links and mutiple layouts.
+**[Donate for Smart WebView Pro](https://voinsource.github.io/SmartWebView-Pro/):** There is a Pro variant of SWV also with many advanced features and bundle of plugins to help you build the best of webview app. Smartest and easiest solution to your instat Android app building problems.<br>Some of the additional features include Google Login, Vision API, QR/Barcode Reader, Background Services, Advanced Notifications, Multiple Layout designs, PQL and more.
 
-**[Get Smart WebView Pro](https://voinsource.github.io/SmartWebView-Pro/)**
+**PROVIDE FEEDBACK:** Feedback helps us learn new things and understand you better. Without an honest feedback no good project is possible and your valuable feedbacks are always welcome: just drop an [email](mailto:getmgks@gmail.com).
 
-**- Donating:** Even your tiniest contribution will be appreciate. If this project helped you or your business in any way and you feel like donating some change, you can always buy me a coffee :)
+**[Follow Me](https://github.com/mgks) on GitHub** | **Add Project to Watchlist** | **Star the Project**
 
-<a href="https://ko-fi.com/Z8Z4BPQ6" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
+Report your [issues](https://github.com/mgks/Kotlin-SmartWebView/issues) here.
 
-**- Feeback:** Donations are definitely not everything. Without an honest feedback no good project is possible. Your valuable feedbacks are always welcome, just drop an [email](mailto:getmgks@gmail.com).<br />Report your [issues](https://github.com/mgks/Kotlin-SmartWebView/issues) here.
-
-#### More about Smart WebView Pro
-**[SWV Pro](https://voinsource.github.io/SmartWebView-Pro/) is a commercial app built for small and medium level businesses, easy to implement with any existing environment.**
-
-```
-PRO FEATURES:
-- Firebase Push Notifications
-- Google AdMob
-- Chromium Tab for External URLs
-- Navigation Drawer
-- Search Bar
-- Action Menu
-- And other customizations
-```
-
-*To Get Smart WebView Pro's Updates, Demo and Documentation, follow [SmartWebView-Pro](https://github.com/voinsource/SmartWebView-Pro) repo.*
-
-```
-NOTE: All public contributions will always be a part of this open source here.
-SWV Pro just contains some additional features that have been implemented only by me to make the app more commercial oriented which helps me keep this repo updated.
-```
 
 ## License
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
 
-## Acknowledgment
-Rating method (Android-Rate) used in this app is developed by [hotchemi](https://github.com/hotchemi) and thanks to other programmers who contributed to this project.
+This project is published under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
 
-Post in Github Repo issues section if you got any problem handling the project and if you want to contribute, you're most welcome to help me make a smarter project than what it is.
 
-**A personal note:** `You all must keep up with programming. It's sometimes difficult and sometimes easy but fun afterall, you can create your own world with programming and that's the beauty of it. So, all the best for your next creation.`
+## Closing Note
 
-This project is initially developed by **[Ghazi Khan](https://github.com/mgks)**.
+This project was initially developed by **[Ghazi Khan](https://github.com/mgks)**, but coming this far wouldn't be possible without the people who contributed to this project.
+
+For development consulting or other support. [Contact me!](mailto:getmgks@gmail.com)
+
+**A personal suggestion:** `You all must keep up with programming. It's sometimes difficult and sometimes easy but fun afterall, you can create your own world with programming and that's the beauty of it. So, all the best for your next creation.`
 
 [![Profile](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mgks)
