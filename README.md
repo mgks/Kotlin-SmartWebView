@@ -10,7 +10,7 @@
 
 [![alt text](https://img.shields.io/badge/variant-kotlin-violet.svg)](#config-variables) [![alt text](https://img.shields.io/badge/last&nbsp;release-3.5-green.svg)](https://github.com/mgks/Kotlin-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mgks/Kotlin-SmartWebView/blob/master/LICENSE)
 
-<h4>(variant discontinued, please use <a href="https://github.com/mgks/Android-SmartWebView/">Android SmartWebView</a> instead)</h4><h1>Kotlin Smart WebView</h1>
+<h4>(variant discontinued, please use <a href="https://github.com/mgks/Android-SmartWebView/">Android Smart WebView</a> instead)</h4><h1>Kotlin Smart WebView</h1>
 
 </span><span align="center" style="text-align:center">
 
