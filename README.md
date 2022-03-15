@@ -14,7 +14,7 @@
 
 </span><span align="center" style="text-align:center">
 
-**[GETTING STARTED](https://github.com/mgks/Android-SmartWebView/blob/master/README.md#getting-started) &middot; [GET SWV PRO](https://mgks.dev/product/smart-webview-pro) &middot; [WIKI](https://github.com/mgks/Android-SmartWebView/wiki) &middot; [DOCUMENTATION](https://github.com/mgks/Android-SmartWebView/tree/master/documentation) &middot; [ISSUES](https://github.com/mgks/Android-SmartWebView/issues)**
+**[GETTING STARTED](https://github.com/mgks/Android-SmartWebView/blob/master/README.md#getting-started) &middot; [GET SWV PRO](https://mgks.dev/projects/smart-webview#pro) &middot; [WIKI](https://github.com/mgks/Android-SmartWebView/wiki) &middot; [DOCUMENTATION](https://github.com/mgks/Android-SmartWebView/tree/master/documentation) &middot; [ISSUES](https://github.com/mgks/Android-SmartWebView/issues)**
 
 </span>
 
@@ -24,15 +24,13 @@ Kotlin SWV is a framework built to develop advanced hybrid webview applications 
 
 A small build with features working out of the box: Live GPS Location, Notifications with FCM, AdMob, Chrome Tabs, Process Camera Input, Upload/Download Files, Custom Rating System, Multiple User Interfaces and more.
 
-**[Get Pro version](https://mgks.dev/product/smart-webview-pro)**
-
-**For Java variant (more active variant), see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView).<br>Java variant is regularly updated with current progress and bug reports.**
+**For Java and other active variants, see: [Android Smart WebView](https://github.com/mgks/Android-SmartWebView).<br>Java variant is regularly updated with current progress and bug reports.**
 
 ## Support the Project
 
 #### There are few ways to support this project -
 
-**[Get Smart WebView Pro](https://mgks.dev/product/smart-webview-pro):** There is a Pro variant of SWV also with many advanced features and bundle of plugins to help you build the best of webview app. Smartest and easiest solution to your instat Android app building problems.<br>Some of the additional features include Google Login, Vision API, QR/Barcode Reader, Background Services, Advanced Notifications, Multiple Layout designs, PQL and more.
+**[Get Smart WebView Pro](https://mgks.dev/projects/smart-webview#pro):** There is a Pro variant of SWV also with many advanced features and bundle of plugins to help you build the best of webview app. Smartest and easiest solution to your instat Android app building problems.
 
 **PROVIDE FEEDBACK:** Feedback helps us learn new things and understand you better. Without an honest feedback no good project is possible and your valuable feedbacks are always welcome: just drop an [email](mailto:hello@mgks.dev).
 
@@ -40,11 +38,9 @@ A small build with features working out of the box: Live GPS Location, Notificat
 
 Report your [issues](https://github.com/mgks/Android-SmartWebView/issues) here.
 
-
 ## License
 
 This project is published under the MIT License - see [LICENSE.md](LICENSE.md) file for details or read [MIT license](https://opensource.org/licenses/MIT).
-
 
 ## Closing Note
 
